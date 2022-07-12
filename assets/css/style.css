@@ -58,6 +58,7 @@ nav a {
     border-bottom: 2px dotted white;
 }
 
+
 /* --------------------banner image----------------------- */
 .hero {
     height: 550px;
@@ -79,6 +80,7 @@ nav a {
     padding: 10px;
 }
 
+
 /* --------------------about me------------------------- */
 #about {
     display: flex;
@@ -94,10 +96,16 @@ nav a {
 
 }
 
-#about p {
+#about-right {
     width: 70%;
     padding: var(--padding-column);
+    display: flex;
 }
+
+#about p {
+    padding: var(--padding-column);
+}
+
 
 /* ---------------------------Work----------------------- */
 #work {
@@ -193,7 +201,7 @@ h4 {
 }
 
 /* border line in the center */
-#about p, .card, #contact ul {
+#about-right, .card, #contact ul {
     border-left: 2px solid lightblue;
 }
 
@@ -237,4 +245,7 @@ footer {
         width: 100%;
     }
 
+    #about-right container {
+        display:none;
+    }
 }

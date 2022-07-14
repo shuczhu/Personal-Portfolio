@@ -61,7 +61,7 @@ nav a {
 
 /* --------------------banner image----------------------- */
 .hero {
-    height: 550px;
+    height: 600px;
     background-image: url("../images/haute_stock_minimal_designer_banner.png");
     background-size: cover;
     background-position:center;
@@ -72,11 +72,9 @@ nav a {
     background-color: lightblue;    
     color: white;
     position: absolute;
-    display: flex;
-    justify-content: flex-end;
     font-size: 20px;
     right: 0%;
-    top: 70%;
+    top: 60%;
     padding: 10px;
 }
 
@@ -86,6 +84,8 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     padding: var(--padding-row);
+    justify-content: center;
+    width: 100%;
     
 }
 
@@ -231,17 +231,27 @@ footer {
         justify-content: space-around;
     }
 
+    nav ul {
+        right:0%;
+        justify-content: space-around;
+        padding-top:2%;
+    }
+
     h2 {
-        width: 100%;
+        width: 100% !important;
         white-space: nowrap;
     }
 
 
     #about p, #work .card, #contact ul {
-        width: 100%;
+        width: 100% !important;
         display: flex;
         flex-wrap:wrap;
         flex-direction: column;
+    }
+
+    #about-right {
+        width: 100%;
     }
 
     #work2, #work3, #work4, #work5 {

@@ -12,6 +12,6 @@ The project is created to practice using flex box to create responsive design. T
 Github Repo: https://github.com/shuczhu/Personal-Portfolio
 Deployed Application: https://shuczhu.github.io/Personal-Portfolio/
 
-## Updated July 12 2022
+## Updated July 14 2022
 
 
